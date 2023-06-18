@@ -1,0 +1,32 @@
+.form{
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: rgb(51, 93, 172);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    padding-left: 20px;
+    border-radius: 10px;
+    border: none;
+    width: 600px;
+    height: 35px;
+}
+
+.btn{
+    border: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-right: 5px;
+    width: 100px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: none;
+    background-color: gray;
+    color: white;
+}
