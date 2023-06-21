@@ -35,3 +35,7 @@
 /* .img:hover{
     border: 2px solid gray;
 } */
+
+.modal-open {
+    overflow: hidden;
+}
