@@ -1,8 +1,8 @@
 
-import React, { useEffect } from "react";
+import React from "react";
 import mcss from '../modal/mcss.module.css';
 
-const Modal = ({ active, setActive, children, closeModal }) => {
+const Modal = ({ active, setActive, children,  }) => {
   const handleClick = (e) => {
     e.stopPropagation();
   };
