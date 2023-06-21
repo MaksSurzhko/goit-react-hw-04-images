@@ -150,7 +150,7 @@ const App = () => {
 
   const handleFormSubmit = (searchName) => {
     if (searchName.trim() === '') {
-      alert('Please write something');
+      alert('Please write somethingggg');
       return;
     }
 
